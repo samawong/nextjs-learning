@@ -23,10 +23,6 @@ body {
     #cta{
         background-image: url('/static/bg-simlify-section-mobile.svg');
     }
-
-    #menu-btn{
-        background-color: #fff;  
-    }
 }
 
 .hamburger{
