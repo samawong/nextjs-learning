@@ -10,7 +10,7 @@ export default async function Features(){
     return (
         <div>
         <section id="features">
-            <div className="container flex flex-col px-4 mx-auto mt-10 space-y-12 md:space-y-0 md:flex-row">
+            <div className="container flex flex-col px-4 mx-auto mt-10 space-y-12 md:space-y-0 md:flex-row  dark:text-white">
                 <div className="flex flex-col space-y-12 md:w-1/2">
                     <h2 className="max-w-md text-4xl font-bold text-left">
                         { features.features.title }
@@ -27,7 +27,7 @@ export default async function Features(){
                                 <div className="px-4 py-2 text-white rounded-full md:py-1 bg-brightRed">
                                     { feature.id }
                                 </div>
-                                <h3 className="text-base font-bold  md:mb-4 md:hidden">
+                                <h3 className="text-base font-bold  md:mb-4 md:hidden dark:text-black">
                                     { feature.title }
                                 </h3>
                             </div>
