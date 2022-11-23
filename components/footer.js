@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function Footer(){
     return (
         <div>
@@ -8,23 +10,23 @@ export default function Footer(){
                         Copyright &copy; 2022, All Rights Reserved.
                     </div>
                     <div>
-                        <img src="/static/logo-white.svg" alt="" className="h-8"></img>
+                        <Image src="/static/logo-white.svg" alt=""  width={200} height={100} className="h-8"/>
                     </div>
                     <div className="flex justify-center space-x-4">
                         <a href="#">
-                            <img src="/static/icon-facebook.svg" alt="" className="h-8"></img>
+                            <Image src="/static/icon-facebook.svg" alt="" width={40} height={40} className="h-8"/>
                         </a>
                         <a href="#">
-                            <img src="/static/icon-youtube.svg" alt="" className="h-8"></img>
+                            <Image src="/static/icon-youtube.svg" alt="" width={40} height={40} className="h-8"/>
                         </a>
                         <a href="#">
-                            <img src="/static/icon-pinterest.svg" alt="" className="h-8"></img>
+                            <Image src="/static/icon-pinterest.svg" alt="" width={40} height={40} className="h-8"/>
                         </a>
                         <a href="#">
-                            <img src="/static/icon-twitter.svg" alt="" className="h-8"></img>
+                            <Image src="/static/icon-twitter.svg" alt="" width={40} height={40} className="h-8"/>
                         </a>
                         <a href="#">
-                            <img src="/static/icon-instagram.svg" alt="" className="h-8"></img>
+                            <Image src="/static/icon-instagram.svg" alt="" width={40} height={40} className="h-8"/>
                         </a>
                     </div>
                 </div>

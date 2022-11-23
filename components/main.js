@@ -1,3 +1,4 @@
+import Image from "next/image";
 
 export default function Main() {
     return (
@@ -17,7 +18,7 @@ export default function Main() {
                     </div>
                 </div>
                 <div className="md:w-1/2">
-                        <img src="/static/illustration-intro.svg" alt="" />
+                        <Image src="/static/illustration-intro.svg" alt="" width={500} height={500} />
                     </div>
             </div>
         </section>

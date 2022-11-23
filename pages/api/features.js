@@ -1,6 +1,6 @@
 
 const features= {
-        title:"What's different about Manager?",
+        title:"What&apos;s different about Manager?",
         content:"Manager provider all the functionality your team needs, whitout the complexity. Out software is tailor-made for modern digital product teams.",
         questions:[
             {

@@ -1,5 +1,9 @@
-export default function Page({ params, searchParams }) {
+export default function Page() {
     // /blog/hello-world => { params: { slug: 'hello-world' } }
     // /blog/hello-world?id=123 => { searchParams: { id: '123' } }
-    return <p>{params.slug} { searchParams.id }</p>;
+    return (
+      <div className="">
+          
+      </div>
+    );
   }
