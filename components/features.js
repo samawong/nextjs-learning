@@ -1,7 +1,6 @@
-
-async function getFeatures() {
-    const resp = await fetch(`${process.env.API_URL}/api/features`);
-    if (!resp.ok) throw new error("something is error!");
+async function getFeatures(){
+    const resp = await fetch("http://localhost:3000/api/features");
+    if(!resp.ok) throw new error("something is error!");
     return resp.json();
 }
 
