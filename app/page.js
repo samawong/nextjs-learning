@@ -4,10 +4,11 @@ import Footer from "../components/footer";
 import Main from "../components/main";
 import Nav from "../components/nav";
 import Testmotion from "../components/testmotion";
+import Home from "../styles/Home.module.css";
 
 export default function Page() {
     return <>
-    <div>
+    <div className={ Home.main }>
       <Nav />          
       <Main />
       <Features />
