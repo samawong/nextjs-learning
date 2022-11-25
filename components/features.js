@@ -16,7 +16,7 @@ export default async  function Features() {
                         { data.title }
                     </h2>
                     <p className="max-w-sm text-center text-darkGrayishBlue md:text-left">
-                        {}
+                        { data.content }
                     </p>
                 </div>
                 <div className="flex flex-col space-y-8 md:w-1/2">

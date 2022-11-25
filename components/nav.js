@@ -13,7 +13,7 @@ export default function Nav() {
         <div className="flex  items-center justify-between">
           <Logo />
           <div className="hidden md:flex space-x-6 dark:text-white">
-            <Link href="" className="hover:text-darkGrayishBlue ">Pricing</Link>
+            <Link href="/todos" className="hover:text-darkGrayishBlue ">Todos</Link>
             <Link href="" className="hover:text-darkGrayishBlue">Product</Link>
             <Link href="" className="hover:text-darkGrayishBlue">about Us</Link>
             <Link href="" className="hover:text-darkGrayishBlue">Careers</Link>
@@ -41,7 +41,7 @@ export default function Nav() {
         <div className={isNavOpen ?  Home.ShowMenuNav :  Home.hideMenuNav}>
           <div id='menu' className=' flex absolute md:flex flex-col items-center  self-end  py-8 mt-10 space-y-6 font-bold  bg-white dark:bg-dark sm:w-auto sm:self-center left-6 right-6 drop-shadow-md dark:bg-black dark:text-white'
             onClick={() => setIsNavOpen(!isNavOpen)}>
-            <Link href="#" className='hover:text-darkGrayishBlue'>Pricing</Link>
+            <Link href="/todos" className='hover:text-darkGrayishBlue'>Todos</Link>
             <Link href="#" className='hover:text-darkGrayishBlue'>Product</Link>
             <Link href="#" className='hover:text-darkGrayishBlue'>about Us</Link>
             <Link href="#" className='hover:text-darkGrayishBlue'>Careers</Link>
