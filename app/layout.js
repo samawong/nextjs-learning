@@ -6,7 +6,7 @@ export default function RootLayout({ children }) {
     return (
     <html lang="en">
         <Head title="Home Page"/>
-        <body id='body' className="bg-white dark:bg-black"> 
+        <body id='body' className="bg-red-900 dark:bg-black"> 
             {children} 
             <AnalyticsWrapper />
         </body>
